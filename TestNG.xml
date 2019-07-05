@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Of TestNG">
-    <test verbose="2" name="百度搜索">
+    <test name="test" preserve-order="true">
         <parameter name="Java" value="Java" />
         <classes>
             <class name="TestDemo">
-                <methods>
-                    <include name="search" />
-                </methods>
             </class>
         </classes>
     </test>
